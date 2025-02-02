@@ -21,7 +21,6 @@ public class Program {
             printSnapshot();
             executeInstruction(instructions[currentLine - 1]);
         }
-        printSnapshot();
         System.out.println("Execution Finished");
     }
 
